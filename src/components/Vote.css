@@ -1,0 +1,52 @@
+.information .box-rounded {
+    background-color: #fff;
+    color: #212121;
+    padding: 15px 20px;
+    border-radius: 15px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.h2 {
+    color:#4B5626;
+    padding: 15px 0;
+}
+
+.btn-secondary {
+    background-color: #4B5626;
+    border-color: #4B5626;
+}
+
+.text-secondary-color {
+    color: #4B5626;
+    font-weight: bold;
+}
+
+.link-color {
+    color: #4B5626;
+    font-weight: bold;
+}
+
+.h-100vh {
+    height: calc(100vh - 300px);
+}
+
+.d-block {
+    margin: auto;
+}
+
+.vote {
+    display: flex;
+  justify-content: center;
+  
+  }
+
+.p {
+    max-width:600px;
+    indent-text:100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+

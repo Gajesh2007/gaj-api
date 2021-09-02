@@ -1,0 +1,220 @@
+.information .feature {
+  font-size: 46px;
+}
+
+.information .feature span {
+  color:#6B4E3B;
+  font-weight: bold;
+}
+
+.bg-white {
+  color: #212121;
+}
+.bg-white-darker {
+  background-color: #f1f3f6;
+  color: #212121;
+}
+
+.bg-white li {
+  font-size: 20px;
+}
+.bg-white li b {
+  color: #4B5626;
+}
+
+.bg-white h2 {
+  color:#6B4E3B;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.circle {
+  padding: 13px 20px;
+  border-radius: 50%;
+  background-color: #4B5626;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+  align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #4B5626;
+  z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.full-left::after {
+  height: 100%;
+  left: 50% ;
+}
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+.how-it-works.row .col-2.top-right::after {
+  height: 50%;
+  left: calc(50% - 3px);
+  top: 0;
+}
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #4B5626;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #4B5626;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
+.card .card-body {
+  color: #212121;
+}
+
+.center {
+  text-align:center;
+}
+
+.larger {
+  font-size: x-large;
+}
+
+dt, dd {
+  white-space: nowrap;
+}
+
+dl {
+  margin-left: 20px;
+}
+
+dt {
+  margin-left: 40px;
+}
+
+dd {
+  margin-left: 60px;
+}
+
+ul.lead {
+  margin-bottom: 20px;
+}
+
+.tips dt, dd dl {
+  margin-left: 0
+}
+
+.tips {
+  text-align: left;
+}
+
+.price {  
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.social-links.row {
+  display: flex;
+  justify-content: center;
+}
+
+.roadmap-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  width:100%;
+  height: calc(100vh - var(--header));
+}
+
+
+
+.jumbotron::after {
+  content: "";
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  z-index: -1;
+  background: rgba(8, 12, 15, 0.432);
+  background: linear-gradient(0deg, #9c7456 7%, #9c7456c9 0%, #00000000 100%);
+
+}
+.jumbotron::before {
+  content: "";
+  width:100%;
+  height:100%;
+  position: absolute;
+  background-image: url(/src/assets/jumbotron-coin.png);
+  z-index: -1;
+  background-size: cover;
+  background-position-y: -60px;
+
+}
+
+.jumbotron{
+  background-color: #9c745657;
+  z-index: -1;
+  background-position-y: -100px;
+
+}
+
+
+
+.contribs {
+  color:#4B5626;
+}
+
+
+.text-kecil {
+  width: 100%;
+  text-align: center;
+}
+
+.burnbox {
+  margin: 0 auto;
+    
+}

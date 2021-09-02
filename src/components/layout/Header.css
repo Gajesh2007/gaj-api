@@ -1,0 +1,91 @@
+.navbar {
+  transition: all 0.4s;
+  background-color: #6B4E3B;
+}
+
+.navbar .logo {
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+
+.navbar .navbar-brand {
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.navbar-nav{
+margin-right: 7%;
+}
+
+.navbar-brand h1{
+  font-size: 32px;
+}
+
+.imagenespeciada {
+    margin-left: 5px;
+}
+
+.navbar .nav-item {
+    padding: 0 15px;
+    text-align: start;
+}
+
+.navbar .nav-link,
+.navbar .btn {
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  text-decoration: none;
+  color: #EBD5C7;
+}
+
+.navbar a.btn:hover,
+.navbar a.btn:focus {
+  text-decoration: none;
+  color: #6B4E3B;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.dropdown {
+  background-color: #6B4E3B;
+}
+
+.dropdown-menu {
+  background-color: #6B4E3B;
+  padding: 15px;
+  border: 1px solid white;
+}
+
+.dropdown-menu li {
+    margin: 2px;
+}
+
+.divider {
+    border: 1px solid white;
+}
+
+@media (max-width: 360px) {
+  .dropdown-menu {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu.dropdown-menu--buy-spore {
+    width: 262px;
+  }
+  
+  .dropdown-menu.dropdown-menu--chart {
+    width: 170px;
+  }
+  
+  .dropdown-menu.dropdown-menu--how-to-buy {
+    width: 204px;
+  }
+}

@@ -1,0 +1,90 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  color:#fff;
+  font-family: 'Poppins', sans-serif;
+  background-color: #9C7456;
+  background-size: 75% auto;
+  background-repeat: no-repeat;
+  background-position: center 120%;
+}
+
+.btn {
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: #6B4E3B;
+  border-color: #6B4E3B;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #EBD5C7;
+  border-color: #EBD5C7;
+  color: #6B4E3B;
+}
+.main {
+  position: relative;
+}
+.main #tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scroll-to-top {
+  position: fixed;
+  z-index: 10;
+  bottom:2%;
+  right:1%;
+  transition: .3s;
+  cursor: pointer;
+  display: none;
+  background: #6b4e3b;
+
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+.scroll-to-top.show {
+  display: block;
+}
+
+.scroll-to-top:hover {
+  transform: scale(1.1);
+}
+
+.scroll-to-top i {
+  display: block;
+}
